@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/header.hpp
+iostream
+-
+atomic
+-
+map
+-
+stdint.h
+-
+utility
+-
+
+/home/nitrousoxide/Lab3.1/sources/source.cpp
+header.hpp
+-
+
